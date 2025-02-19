@@ -26,7 +26,7 @@ function App() {
 
   return (
     <>
-      <div className='bg-gray-700 flex justify-center font-bold text-3xl md:text-5xl p-10 bg-blend-overlay'>
+      <div className='bg-gray-700 flex justify-center font-bold text-2xl md:text-5xl p-10 bg-blend-overlay'>
         <div className='pr-2 md:p-2 mt-2 md:mt-0'>
           <img src={icon} alt='icon' className='h-7 w-8  md:h-10  md:w-15' />
         </div>
@@ -43,9 +43,6 @@ function App() {
         <div className='flex justify-center p-10 '>
           <button onClick={() => GetData(selectedOption)} className='bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded-full mt-5'>
             Get Data
-          </button>
-          <button className='bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded-full mt-5 ml-5'>
-            Deviation
           </button>
         </div>
       </div>
