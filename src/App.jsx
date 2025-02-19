@@ -32,7 +32,7 @@ function App() {
         </div>
         <div>Crypto Currency Tracker </div>
       </div>
-      <div className='grid grid-cols-1 text-center  md:flex justify-center font-bold text-sm  md:text-2xl'>
+      <div className='grid grid-cols-1 text-center p-4 md:p-10 md:flex justify-center font-bold text-sm  md:text-2xl'>
         <div>🚀📊 Stay ahead of the market—track, </div>
         <div>analyze crypto in real time! 🚀📊 </div>
       </div>
@@ -44,9 +44,7 @@ function App() {
           <button onClick={() => GetData(selectedOption)} className='bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded-full mt-5'>
             Get Data
           </button>
-          <button className='bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded-full mt-5 ml-5'>
-            Deviation
-          </button>
+          
         </div>
       </div>
       <div>
