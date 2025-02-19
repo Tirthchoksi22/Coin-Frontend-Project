@@ -32,7 +32,7 @@ function App() {
         </div>
         <div>Crypto Currency Tracker </div>
       </div>
-      <div className='grid grid-cols-1 text-center  md:flex justify-center font-bold text-sm  md:text-2xl'>
+      <div className='grid grid-cols-1 text-center  md:flex justify-center font-bold text-sm  md:text-2xl p-5 md:p-8'>
         <div>🚀📊 Stay ahead of the market—track, </div>
         <div>analyze crypto in real time! 🚀📊 </div>
       </div>
