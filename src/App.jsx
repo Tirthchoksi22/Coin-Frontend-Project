@@ -26,13 +26,17 @@ function App() {
 
   return (
     <>
-      <div className='bg-gray-700 flex justify-center font-bold text-3xl md:text-5xl p-10 bg-blend-overlay'>
+      <div className='bg-gray-700 flex justify-center font-bold text-2xl md:text-5xl p-10 bg-blend-overlay'>
         <div className='pr-2 md:p-2 mt-2 md:mt-0'>
           <img src={icon} alt='icon' className='h-7 w-8  md:h-10  md:w-15' />
         </div>
         <div>Crypto Currency Tracker </div>
       </div>
+<<<<<<< HEAD
       <div className='grid grid-cols-1 text-center p-4 md:p-10 md:flex justify-center font-bold text-sm  md:text-2xl'>
+=======
+      <div className='grid grid-cols-1 text-center  md:flex justify-center font-bold text-sm  md:text-2xl p-5 md:p-8'>
+>>>>>>> 5365d10dfb9d81614030759017d28e612728ccf0
         <div>🚀📊 Stay ahead of the market—track, </div>
         <div>analyze crypto in real time! 🚀📊 </div>
       </div>
@@ -44,7 +48,10 @@ function App() {
           <button onClick={() => GetData(selectedOption)} className='bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded-full mt-5'>
             Get Data
           </button>
+<<<<<<< HEAD
           
+=======
+>>>>>>> 5365d10dfb9d81614030759017d28e612728ccf0
         </div>
       </div>
       <div>
